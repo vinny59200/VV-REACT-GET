@@ -13,8 +13,7 @@ function App() {
       response.json()).then(data => {
         console.log(data);
         setActivity(data);
-      }
-      );
+      });
   }
 
   useEffect(() => {
